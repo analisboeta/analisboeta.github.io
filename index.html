@@ -20,6 +20,7 @@
             height: 60px;
             line-height: 60px;
             margin-bottom: 0;
+            padding-bottom: 0;
         }
 
         .mainGradient {
@@ -50,7 +51,7 @@
 <body>
 
 <header>
-    <div class="d-flex flex-column">
+    <div class="d-flex flex-column fixed-top">
         <div class=" jumbotron d-none d-md-block mainGradient">
             <h1 class="display-4 ">Ana Lourenço</h1>
             <p class="lead">I'm a polymath turned developer through a calculated risk, and code has become both my craft
@@ -71,14 +72,14 @@
 </header>
 
 
-<footer class="customFooter mt-auto footerGradient">
+<footer class="">
     <!-- this footer needs the same type of responsiveness as the header -->
-    <div class="d-flex">
-        <span class="text-muted mr-auto m-2">powered by caffeine and B B King</span>
-        <div class="m-2"><a href="http://www.visualcv.com/aflourenco" target="_blank">CV</a></div>
-        <div class="m-2"><a href="http://www.linkedin.com/in/aflourenco" target="_blank">Linkedin</a></div>
-        <div class="m-2"><a href="https://github.com/analisboeta">GitHub</a></div>
-        <div class="m-2"><a href="https://www.instagram.com/analisboeta">Instagram</a></div>
+    <div class="d-flex fixed-bottom customFooter footerGradient">
+        <span class="text-muted mr-auto m-1">powered by caffeine and B B King</span>
+        <div class="m-1"><a href="http://www.visualcv.com/aflourenco" target="_blank"> CV </a></div>
+        <div class="m-1"><a href="http://www.linkedin.com/in/aflourenco" target="_blank"> Linkedin </a></div>
+        <div class="m-1"><a href="https://github.com/analisboeta"> GitHub </a></div>
+        <div class="m-1"><a href="https://www.instagram.com/analisboeta"> Instagram </a></div>
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
