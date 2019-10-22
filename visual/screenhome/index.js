@@ -13,7 +13,7 @@ $('.pushpin-demo-nav').each(function () {
 });
 
 
-axios.get('https://www.instagram.com/explore/tags/analisboetasitegallery/?__a=1')
+axios.get('https://www.instagram.com/explore/tags/analisboetagallery/?__a=1')
   .then(function (response) {
 
     return response.data.graphql.hashtag.edge_hashtag_to_media.edges;
